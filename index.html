@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List Homework</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src ='js/app.js'></script>
+</head>
+<body>
+    <h1>Sport stars list</h1>
+    <form id="new-item-form">
+        <div id="form-wrapper">
+          <div class="form-item">
+            <label for="name" class="primary">Name</label>
+            <input type="text" id="name" required/>
+          </div>
+  
+          <div class="form-item">
+            <label for="team" class="primary">Team</label>
+            <input type="text" id="team" required/>
+          </div>
+  
+          <div class="form-item">
+            <label for="positon" class="primary">Position</label>
+            <select id="position">
+              <option value="" disabled selected></option>
+              <option value="Forward">Forward</option>
+              <option value="Midfielder">Midfielder</option>
+              <option value="Defender">Defender</option>
+              <option value="Goalkeeper">Goal Keeper</option>
+            </select>
+          </div>
+        </div>
+        <input type="submit" value="save"/>
+      </form>
+      <button id = 'delete-all'>Delete</button>
+      <ul>Sportstar List</ul>
+</body>
+</html>
