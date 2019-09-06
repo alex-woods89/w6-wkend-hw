@@ -12,6 +12,7 @@ const parentElement = document.querySelector('ul')
 const childElement = document.createElement('p')
 childElement.textContent = `${event.target.name.value}, ${event.target.team.value}, ${event.target.position.value}, ${event.target.available.value}`
 parentElement.appendChild(childElement)
+event.target.reset()
 }
 const handleDeleteButtonClick = function(event){
 const sportstarList = document.querySelector('ul')
