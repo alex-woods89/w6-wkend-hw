@@ -1,12 +1,12 @@
-document.addEventListener('DOMContentLoaded', () =>{
+document.addEventListener('DOMContentLoaded', () => {
   const newIitemForm = document.querySelector('#new-item-form')
-  newIitemForm.addEventListener('submit', handleNewItemFormSubmit) 
-  
+  newIitemForm.addEventListener('submit', handleNewItemFormSubmit)
+
   const deleteButton = document.querySelector('#delete-all')
   deleteButton.addEventListener('click', handleDeleteButtonClick)
 })
 
-const handleNewItemFormSubmit = function(event){
+const handleNewItemFormSubmit = function (event) {
   event.preventDefault()
   const parentElement = document.querySelector('ul')
   const childElement = document.createElement('p')
@@ -16,10 +16,7 @@ const handleNewItemFormSubmit = function(event){
 }
 
 
-const handleDeleteButtonClick = function(){
+const handleDeleteButtonClick = function () {
   const sportstarList = document.querySelector('ul')
   sportstarList.innerHTML = ''
 }
-
-
-
