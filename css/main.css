@@ -1,23 +1,21 @@
 body {
-        background-color: #194613;
-        color: rgb(203, 216, 18)
+    background-color: #194613;
+    color: rgb(203, 216, 18)
 }
 
 .sports-list {
     color: rgb(203, 216, 18);
     font-size: larger;
-    display: flexbox, float;
+    display: flexbox;
     flex-wrap: wrap;
     list-style-type: none;
     margin: 0.5rem 0.5rem;  
-  padding: 0.5rem 0.8rem;
-  border: 1px solid #20437c;
-  border-radius: 5%;
-  background: rgb(96, 185, 6)
-  
+    padding: 0.5rem 0.8rem;
+    border: 1px solid #20437c;
+    border-radius: 5%;
+    background: rgb(96, 185, 6)
 }
 
 p {
-    font-size: larger;
-   
+    font-size: larger;  
 }
